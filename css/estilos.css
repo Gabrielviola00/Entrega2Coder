@@ -1,0 +1,73 @@
+
+#ImagenPrincipal{
+    margin-top: 20px;
+    margin-right: 50%;
+    margin-bottom: 20px;
+    margin-left: 44%;
+    background-color: grey;   
+}
+
+
+
+#titulo{
+    text-align: center;
+
+
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 80px;
+    font-style: italic;
+    color: white;
+}
+
+.secciones{
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: solid; color: white;
+
+    background-color: grey;
+
+    font-style: oblique;
+    color: #FFFFFF;   
+}
+
+.facebook {
+    float: right;
+
+}
+
+.whatsapp {
+    
+    float: left;
+}
+
+.instagram {
+
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 790px;
+    
+}
+
+.barra_navegadora_pagina_entrenamiento {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.barrada_navegadora2_entrenamiento {
+    display: flex;
+    justify-content: space-between;
+
+}
