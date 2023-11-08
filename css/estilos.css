@@ -1,73 +1,68 @@
-
-#ImagenPrincipal{
-    margin-top: 20px;
-    margin-right: 50%;
-    margin-bottom: 20px;
-    margin-left: 44%;
-    background-color: grey;   
+.fondo{
+    background-color: black;
 }
 
 
+/* Header de index */ 
 
-#titulo{
-    text-align: center;
-
-
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: white;
-}
-
-h2{
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 80px;
-    font-style: italic;
-    color: white;
-}
-
-.secciones{
-    text-align: center;
-    padding-top: 10px;
-    padding-right: 0px;
-    padding-bottom: 10px;
-    padding-left: 0px;
-
-    margin-top: 50px;
-    margin-bottom: 50px;
-    border: solid; color: white;
-
-    background-color: grey;
-
-    font-style: oblique;
-    color: #FFFFFF;   
-}
-
-.facebook {
-    float: right;
+.cajaLogo{
+    height: 15rem;
 
 }
 
-.whatsapp {
+.logo {
     
-    float: left;
-}
-
-.instagram {
-
-    margin-top: 0px;
-    margin-bottom: 20px;
-    margin-left: 790px;
+    object-fit: contain;
+    padding-top: 2rem;
     
 }
 
-.barra_navegadora_pagina_entrenamiento {
-    display: flex;
-    justify-content: space-between;
+.cajaTitulo {
+    height: 5rem;
+    
+    
+}
+
+.titulo {
+
+    font-family: 'Dela Gothic One', sans-serif;
+    text-align: center;      
+}
+
+.cajaSubtitulo {
+    height: 5rem;
+}
+
+
+/* Main de index */
+
+.mainIndex{
+    display: grid;
+    justify-items: center;
+    height: 15rem;
+    margin-top: 2rem;
+    
+}
+
+.seccionesMain {
+    text-align: center;
+    font-family: 'Dela Gothic One', sans-serif;
+    border: solid  black;
+}
+
+.hover:hover {
+    background-color: white ;
+}
+
+/*footer de index*/
+
+.footerIndex {
+    height: 25rem;
+    padding-top: 5rem;
+    
 
 }
 
-.barrada_navegadora2_entrenamiento {
-    display: flex;
-    justify-content: space-between;
-
+.redes {
+    object-fit: contain;
 }

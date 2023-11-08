@@ -10,49 +10,82 @@
     <!--estilos-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
-
-
     <meta charset="UTF-8">
     <title>Spartanos</title>
 
 </head>
 
-<body>
+<body class="fondo container-fluid">
     <!-- cabecera-->
-    <header>
-        <div>
-            <p><img id="ImagenPrincipal" src="img/gym-3626589_640.png" alt="espartano" height="250"></p>
+    <header class=" row ">
+
+        <div class=" col-12 cajaLogo text-center img-fluid ">
+            <img class="logo" src="img/gym-3626589_640.png" alt="gim" height="195rem">
         </div>
 
-        <div>
-            <h1 id="titulo">GABRIEL VIOLA</h1>
-            <h2 id="subtitulo">Únete al Team #spartanos y alcancemos juntos tu mejor versión</h2>
+        <div class="col-12 cajaTitulo">
+            <h1 class="titulo ">GABRIEL VIOLA</h1>
+        </div>
+
+        <div class="col-12 cajaSubtitulo">
+            <h2 class="subtitulo text-center ">Únete al Team #spartanos y alcancemos juntos tu mejor versión.</h2>
         </div>
 
     </header>
 
     <!-- contenido principal -->
-    <main>
-        <h3 class="secciones"> <a href="./pages/entrenamiento.html" style="text-decoration: none;">PLANES DE
-                ENTRENAMIENTO <a> </h3>
-        <h3 class="secciones"> <a href="./pages/nutrición.html" style="text-decoration: none;">PLANES DE NUTRICIÓN</a>
+    <main class="row mainIndex">
+
+        <h3 class="col-12 seccionesMain text-center "> <a class="hover" href="./pages/entrenamiento.html"
+                style="text-decoration: none;">PLANES DE
+                ENTRENAMIENTO </a></h3>
+
+        <h3 class="col-12 seccionesMain text-center "> <a class="hover" href="./pages/nutrición.html"
+                style="text-decoration: none;">PLANES DE
+                NUTRICIÓN</a></h3>
+
+        <h3 class="col-12 seccionesMain text-center "> <a class="hover" href="./pages/suplementación.html"
+                style="text-decoration: none;">SUPLEMENTACIÓN</a></h3>
+
+        <h3 class="col-12 seccionesMain text-center "> <a class="hover" href="./pages/nosotros.html"
+                style="text-decoration: none;">NUESTRO EQUIPO</a>
         </h3>
-        <h3 class="secciones"> <a href="./pages/suplementación.html" style="text-decoration: none;">SUPLEMENTACIÓN</a>
-        </h3>
-        <h3 class="secciones"> <a href="./pages/nosotros.html" style="text-decoration: none;">NUESTRO EQUIPO</a> </h3>
 
     </main>
 
     <!-- pie de página-->
-    <footer>
-        <a href="https://www.facebook.com/gabriel.viola.108" target="_blank"> <img src="img/facebook-g5de104ad1_640.png"
-                alt="Logo facebook" height="100" class="facebook"></a>
-        <a href="https://instagram.com/gabii.v00?igshid=MzNlNGNkZWQ4Mg==" target="_blank"><img
-                src="img/instagram-ge06ac47c8_640.png" alt="logo instagram" height="100" class="instagram"></a>
-        <a href="https://wa.me/qr/USJVMESUXV2JH1" target="_blank"><img src="img/whatsapp-gb5c110982_640.png"
-                alt="logo whatsap" height="100" class="whatsapp"></a>
+    <footer class=" row footerIndex text-center">
+
+        <div class=" col-4 ">
+            <a href="https://www.facebook.com/gabriel.viola.108" target="_blank"> <img
+                    src="img/facebook-g5de104ad1_640.png" alt="" width="115rem" height="115rem"
+                    class="redes img-fluid"></a>
+        </div>
+
+
+
+        <div class=" col-4">
+            <a href="https://instagram.com/gabii.v00?igshid=MzNlNGNkZWQ4Mg==" target="_blank"><img
+                    src="img/instagram-ge06ac47c8_640.png" alt="" width="115rem" height="115rem"
+                    class="redes img-fluid"></a>
+        </div>
+
+
+        <div class="col-4">
+            <a href="https://wa.me/qr/USJVMESUXV2JH1" target="_blank"><img src="img/whatsapp-gb5c110982_640.png " alt=""
+                    width="115rem" height="115rem" class="redes img-fluid"></a>
+        </div>
+
+
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 
 </body>
 
