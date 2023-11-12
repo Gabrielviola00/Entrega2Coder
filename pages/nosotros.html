@@ -5,44 +5,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--estilos-->
     <link rel="shortcut icon" href="../img/spartan-g31b2e2645_640.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="/css/estilos.css">
     <meta charset="UTF-8">
     <title>Spartanos</title>
 </head>
 
-<body>
+<body class="container fondo">
 
-    <header>
+     <!-- cabecera-->
+    <header class="row headerNosotros">
 
-        <div>
-            <a href="../index.html"><img src="../img/spartan-g31b2e2645_640.png" alt="espartano" height="100"></a>
+        <div class=" col-xl-2 col-lg-3 col-md-12 col-sm-12 logoNosotros">
+            <a href="../index.html"><img  src="/img/casco.png" alt="espartano" height="100rem"></a>
         </div>
 
-
-        <nav>
-            <ul>
-                <li> <a href="../pages/entrenamiento.html"> ENTRENAMIENTO</a></li>
-                <li><a href="../pages/nutrición.html"> NUTRICION</a></li>
-                <li><a href="../pages/suplementación.html">SUPLEMENTACION</a></li>
-                <li> <a href="../pages/nosotros.html">NOSOTROS</a> </li>
+        <nav class="col-xl-10 col-lg-9 col-md-12 col-sm-12  " > 
+            <ul class="cajaLista row">
+                <li class="secciones col-xl-3 col-lg-6 col-md-6 col-sm-6 text-center"> <a class="secciones" href="../pages/entrenamiento.html"> ENTRENAMIENTO</a></li>
+                <li class="secciones col-xl-3 col-lg-6 col-md-6 col-sm-6 text-center"> <a class="secciones" href="../pages/nutrición.html"> NUTRICION</a></li>
+                <li class="secciones col-xl-3 col-lg-6 col-md-6 col-sm-6 text-center"> <a class="secciones" href="../pages/suplementación.html">SUPLEMENTACION</a></li>
+                <li class="secciones col-xl-3 col-lg-6 col-md-6 col-sm-6 text-center"> <a class="secciones" href="../pages/nosotros.html">NOSOTROS</a> </li>
             </ul>
         </nav>
 
     </header>
 
+    <!-- contenido principal -->
+    <main class="row">
+        <section class="col-12 text-center">
 
-    <main>
-        <section>
+            <h1 class="tituloNosotros fs-1"> TEAM SPARTANOS</h1>
 
-            <h1> TEAM SPARTANOS</h1>
-
-            <p>Es una plataforma integrada por un equipo de profesionales donde encontrarás lo último sobre
+            <p class="subtituloNosotros fs-4 ">Es una plataforma integrada por un equipo de profesionales donde
+                encontrarás lo último sobre
                 entrenamiento y nutrición basado en la ciencia para que puedas alcanzar tus objetivos. No nos limitamos
                 a ser una plataforma más sobre información y asesoramiento, somos un equipo apasionado por lo que hace.
                 Buscamos
@@ -52,47 +55,49 @@
 
         </section>
 
-        <section>
+        <section class="col-md-4 text-center seccionesNosotros col-sm-12">
 
-            <img src="/img/cbum-olympia-stage-1200x1200-cropped.jpg" alt="foto" height="150">
-            <H2>GABRIEL VIOLA</H2>
-            <p>SEO de TEAM SPARTA, nitricionista y entrenador personal especializado en musuclación</p>
-
-        </section>
-
-
-        <section>
-
-            <img src="/img/efe33f.jpeg" alt="foto" height="250">
-            <H2>ROBERTO CARLOS VIOLA</H2>
-            <p>Entrenador personal especializado en powerlifting>
+            <img src="/img/cbum-olympia-stage-1200x1200-cropped.jpg" alt="foto" height="200rem" class="dueños">
+            <H2 class="dueños">GABRIEL VIOLA</H2>
+            <h6 class="dueños">SEO de TEAM SPARTA, nutricionista y entrenador personal especializado en musculación</h6>
 
         </section>
 
-        <section>
 
-            <img src="/img/arnold.jpeg" alt="arnold Schwarzenegger" height="150">
-            <H2>THIAGO SILVERA</H2>
-            <p>Entrenador persona experto en biomecánica</p>
+        <section class="col-md-4 text-center seccionesNosotros col-sm-12">
+
+            <img src="/img/efe33f.jpeg" alt="foto" height="200rem" class="dueños">
+            <H2 class="dueños">ROBERTO VIOLA</H2>
+            <h6 class="dueños">Entrenador personal especializado en powerlifting</h6>
 
         </section>
+
+        <section class="col-md-4 text-center seccionesNosotros col-sm-12">
+
+            <img src="/img/arnold.jpeg" alt="arnold Schwarzenegger" height="200rem" class="dueños">
+            <H2 class="dueños">THIAGO SILVERA</H2>
+            <h6 class="dueños">Entrenador personal experto en biomecánica</h6>
+
+        </section>
+
 
     </main>
 
-    <footer>
-        <div>
+    <!-- PIE DE PÁGINA -->
+    <footer class="row footerNosotros text-center">
+        <div class="col-4 img-fluid redes ">
             <a href="https://www.facebook.com/gabriel.viola.108" target="_blank"> <img
-                    src="../img/facebook-g5de104ad1_640.png" alt="Logo facebook" height="100" class="facebook"></a>
+                    src="../img/facebook-g5de104ad1_640.png" alt="Logo facebook" height="100rem"></a>
         </div>
 
-        <div>
+        <div class="col-4 img-fluid redes ">
             <a href="https://instagram.com/gabii.v00?igshid=MzNlNGNkZWQ4Mg==" target="_blank"><img
-                    src="../img/instagram-ge06ac47c8_640.png" alt="logo instagram" height="100" class="instagram"></a>
+                    src="../img/instagram-ge06ac47c8_640.png" alt="logo instagram" height="100rem"></a>
         </div>
 
-        <div>
+        <div class="col-4 img-fluid redes ">
             <a href="https://wa.me/qr/USJVMESUXV2JH1" target="_blank"><img src="../img/whatsapp-gb5c110982_640.png"
-                    alt="logo whatsap" height="100" class="whatsapp"></a>
+                    alt="logo whatsap" height="100rem"></a>
         </div>
 
     </footer>
