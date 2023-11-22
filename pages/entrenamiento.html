@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--estilos-->
     <link rel="shortcut icon" href="../img/spartan-g31b2e2645_640.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -17,46 +19,75 @@
 </head>
 
 
-<body>
+<body class="container fondo">
 
-    <nav class="barra_navegadora_pagina_entrenamiento">
-        <a href="../index.html"><img src="../img/spartan-g31b2e2645_640.png" alt="espartano" height="100"></a>
-        <ul class="barrada_navegadora2_entrenamiento">
-            <li class="atajos-de-navegacion"> <a href="../pages/entrenamiento.html"> ENTRENAMIENTO</a></li>
-            <li class="atajos-de-navegacion"><a href="../pages/nutrición.html"> NUTRICION</a></li>
-            <li class="atajos-de-navegacion"><a href="../pages/suplementación.html">SUPLEMENTACION</a></li>
-            <li class="atajos-de-navegacion"> <a href="../pages/nosotros.html">NOSOTROS</a> </li>
-        </ul>
-    </nav>
+    <!--CABECERA-->
+    <header class="row headerNosotros">
 
-    <header>
-        <h1> TE ENTRENAMOS SEGÚN TUS OBJETIVOS</h1>
+        <div class="col-xl-2 col-lg-3 col-md-12 col-sm-12 logoNosotros">
+            <a href="../index.html"><img src="../img/casco.png" alt="espartano" height="100rem"></a>
+        </div>
 
-        <img src="../img/weight-ge73657ed8_640.png" alt="barra olimpica" height="150">
-        <H2>FUERZA</H2>
-        <p>El principal objetivo de este plan, es sacar tu máximo potencial en movimientos como el peso muerto, press
-            banca y sentadilla.</p>
-        <br><br><br>
-
-
-        <img src="../img/man-gb62f0e4f3_640.png" alt="culturista" height="150">
-        <H2>MUSCULACIÓN</H2>
-        <p>El principal objetivo de este plan, es llevar a un siguiente nivel tu estética y simetría muscular</p>
-        <br><br><br>
-
-        <img src="../img/bodybuilding-gef9b4799d_640.png" alt="arnold Schwarzenegger" height="150">
-        <H2>POWERBUILDING</H2>
-        <p>Es una mezcla de culturismo y fuerza en la que los elementos de ambas disciplinas se conbinan es un solo
-            programa de entrenamiento</p>
+        <nav class="col-xl-10 col-lg-9 col-md-12 col-sm-12" >
+            <ul class="cajaLista row">
+                <li class="secciones col-xl-3 col-lg-6 col-md-6 col-sm-6 text-center"><a class="secciones" href="../pages/entrenamiento.html"> ENTRENAMIENTO</a></li>
+                <li class="secciones col-xl-3 col-lg-6 col-md-6 col-sm-6 text-center"><a class="secciones" href="../pages/nutrición.html"> NUTRICION</a></li>
+                <li class="secciones col-xl-3 col-lg-6 col-md-6 col-sm-6 text-center"><a class="secciones" href="../pages/suplementación.html">SUPLEMENTACION</a></li>
+                <li class="secciones col-xl-3 col-lg-6 col-md-6 col-sm-6 text-center"><a class="secciones" href="../pages/nosotros.html">NOSOTROS</a> </li>
+            </ul>
+        </nav>
+    
     </header>
 
-    <footer>
-        <a href="https://www.facebook.com/gabriel.viola.108" target="_blank"> <img
-                src="../img/facebook-g5de104ad1_640.png" alt="Logo facebook" height="100" class="facebook"></a>
-        <a href="https://instagram.com/gabii.v00?igshid=MzNlNGNkZWQ4Mg==" target="_blank"><img
-                src="../img/instagram-ge06ac47c8_640.png" alt="logo instagram" height="100" class="instagram"></a>
-        <a href="https://wa.me/qr/USJVMESUXV2JH1" target="_blank"><img src="../img/whatsapp-gb5c110982_640.png"
-                alt="logo whatsap" height="100" class="whatsapp"></a>
+    <!--CONTENIDO PRINCIPAL-->
+    <main class="row">
+
+        <section class="col-12 text-center">
+            <h1 class="tituloNosotros fs-1"> TE ENTRENAMOS SEGÚN TUS OBJETIVOS</h1>
+        </section>
+        
+        <section class="col-md-4 text-center seccionesNosotros col-sm-12 marginEntrenamiento">
+            <img src="../img/weight-ge73657ed8_640.png" alt="barra olimpica" height="150rem" class="dueños">
+            <H2 class="dueños">FUERZA</H2>
+            <p class="dueños">El principal objetivo de este plan, es sacar tu máximo potencial en movimientos como el peso muerto, press
+                banca y sentadilla.</p>
+        </section>
+        
+        <section class="col-md-4 text-center seccionesNosotros col-sm-12 marginEntrenamiento" >
+            <img src="../img/bodybuilding-gef9b4799d_640.png" alt="culturista" height="200rem" class="dueños" >
+            <H2 class="dueños">MUSCULACIÓN</H2>
+            <p class="dueños">El principal objetivo de este plan, es llevar a un siguiente nivel tu estética y simetría muscular</p>
+        </section>
+
+        <section class="col-md-4 text-center seccionesNosotros col-sm-12 marginEntrenamiento"  >
+            <img src="../img/sustitucionfuerza.png" alt="arnold Schwarzenegger" height="200rem" class="dueños">
+            <H2 class="dueños">POWERBUILDING</H2>
+            <p class="dueños">Es una mezcla de culturismo y fuerza en la que los elementos de ambas disciplinas se conbinan es un solo
+                programa de entrenamiento</p>
+        </section>
+        
+    </main>
+
+    <!--PIE DE PAGINA-->
+    <footer class="row footerNosotros text-center">
+
+        <div class="col-4 img-fluid redes ">
+            <a href="https://www.facebook.com/gabriel.viola.108" target="_blank"> <img
+                src="../img/facebook-g5de104ad1_640.png" alt="Logo facebook" height="100rem"></a>
+        </div>
+
+        <div class="col-4 img-fluid redes ">
+            <a href="https://instagram.com/gabii.v00?igshid=MzNlNGNkZWQ4Mg==" target="_blank"><img
+                src="../img/instagram-ge06ac47c8_640.png" alt="logo instagram" height="100rem"></a>
+        </div>
+
+        <div class="col-4 img-fluid redes ">
+            <a href="https://wa.me/qr/USJVMESUXV2JH1" target="_blank"><img
+                src="../img/whatsapp-gb5c110982_640.png" alt="logo whatsapp" height="100rem"></a>
+        </div>
+
+      
+
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
