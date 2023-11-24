@@ -1,0 +1,159 @@
+@import "variables";
+@import "mixin";
+
+
+.fondo{
+    background-color: black;
+}
+
+/* Header de index */ 
+
+.cajaLogo{
+    height: 15rem;
+
+    .logo {
+    
+        object-fit: contain;
+        padding-top: 2rem;
+        
+    }
+
+    }
+
+ 
+    .cajaTitulo {
+        height: 5rem;
+        
+        .titulo {
+
+            font-family: 'Dela Gothic One', sans-serif;
+            text-align: center;
+            color: #FF9130;
+        
+        }
+        
+    }
+
+    .cajaSubtitulo {
+        height: 5rem;
+        color: #FF9130;
+
+
+    }
+
+    /* Main de index */
+
+.mainIndex{
+    display: grid;
+    justify-items: center;
+    height: 15rem;
+    margin-top: 2rem;
+
+    .seccionesMain {
+        text-align: center;
+        font-family: 'Dela Gothic One', sans-serif;
+        
+        border: solid  black;
+
+        .letraSeccionesMain {
+            color: #A9A9A9;
+            text-decoration: none;
+
+            &:hover {
+                background-color:$colorHover ;
+            }
+
+            }
+        }
+        
+    
+}
+
+/*footer de index*/
+
+.footerindex {
+    height: 25rem;
+    padding-top: 5rem;
+
+    .redes{
+        @include redes
+
+        }
+
+}
+
+
+/*************EDICION DE NOSOTROS****************/
+
+/*Body de nosotros*/
+
+.logoNosotros{
+    padding: 2rem 2rem 2rem 2rem;
+    text-align: center;
+}
+
+.cajaLista {
+    
+    list-style-type: none;
+    
+    .secciones {
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        text-decoration: none;
+        font-family: 'Dela Gothic One', sans-serif;
+        color: #FF9130;
+       
+        &:hover {
+            background-color: white;
+        }
+    }
+    
+}
+
+/*Main de nosotros*/
+
+.tituloNosotros {
+    font-family: 'Dela Gothic One', sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #A9A9A9;;
+    
+
+}
+
+.subtituloNosotros {
+    font-family: 'Dela Gothic One', sans-serif;
+    margin-bottom: 5rem;
+    color: #A9A9A9;;
+    
+}
+
+/*Seccion de nosotros */
+
+
+.seccionesNosotros{
+    object-fit: contain;
+    font-family: 'Dela Gothic One', sans-serif;
+
+    &:hover {
+        background-color: white;
+    }
+
+    .dueños {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+     }
+}
+
+.footerGeneral{
+    height: 25rem;
+    padding-top: 3rem;
+    
+    .redes{
+        @include redes
+    }
+    
+}
+
+

@@ -1,0 +1,119 @@
+@charset "UTF-8";
+.fondo {
+  background-color: black;
+}
+
+/* Header de index */
+.cajaLogo {
+  height: 15rem;
+}
+.cajaLogo .logo {
+  object-fit: contain;
+  padding-top: 2rem;
+}
+
+.cajaTitulo {
+  height: 5rem;
+}
+.cajaTitulo .titulo {
+  font-family: "Dela Gothic One", sans-serif;
+  text-align: center;
+  color: #FF9130;
+}
+
+.cajaSubtitulo {
+  height: 5rem;
+  color: #FF9130;
+}
+
+/* Main de index */
+.mainIndex {
+  display: grid;
+  justify-items: center;
+  height: 15rem;
+  margin-top: 2rem;
+}
+.mainIndex .seccionesMain {
+  text-align: center;
+  font-family: "Dela Gothic One", sans-serif;
+  border: solid black;
+}
+.mainIndex .seccionesMain .letraSeccionesMain {
+  color: #A9A9A9;
+  text-decoration: none;
+}
+.mainIndex .seccionesMain .letraSeccionesMain:hover {
+  background-color: white;
+}
+
+/*footer de index*/
+.footerindex {
+  height: 25rem;
+  padding-top: 5rem;
+}
+.footerindex .redes {
+  width: 8rem;
+  height: 8rem;
+  object-fit: contain;
+}
+
+/*************EDICION DE NOSOTROS****************/
+/*Body de nosotros*/
+.logoNosotros {
+  padding: 2rem 2rem 2rem 2rem;
+  text-align: center;
+}
+
+.cajaLista {
+  list-style-type: none;
+}
+.cajaLista .secciones {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-decoration: none;
+  font-family: "Dela Gothic One", sans-serif;
+  color: #FF9130;
+}
+.cajaLista .secciones:hover {
+  background-color: white;
+}
+
+/*Main de nosotros*/
+.tituloNosotros {
+  font-family: "Dela Gothic One", sans-serif;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #A9A9A9;
+}
+
+.subtituloNosotros {
+  font-family: "Dela Gothic One", sans-serif;
+  margin-bottom: 5rem;
+  color: #A9A9A9;
+}
+
+/*Seccion de nosotros */
+.seccionesNosotros {
+  object-fit: contain;
+  font-family: "Dela Gothic One", sans-serif;
+}
+.seccionesNosotros:hover {
+  background-color: white;
+}
+.seccionesNosotros .dueños {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footerGeneral {
+  height: 25rem;
+  padding-top: 3rem;
+}
+.footerGeneral .redes {
+  width: 8rem;
+  height: 8rem;
+  object-fit: contain;
+}
+
+/*# sourceMappingURL=estilo.css.map */
