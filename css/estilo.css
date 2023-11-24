@@ -67,7 +67,14 @@
 .cajaLista {
   list-style-type: none;
 }
-.cajaLista .secciones {
+@media (max-width: 576px) {
+  .cajaLista {
+    margin-left: 0.5rem;
+    margin-right: 2rem;
+  }
+}
+
+.secciones {
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -75,7 +82,7 @@
   font-family: "Dela Gothic One", sans-serif;
   color: #FF9130;
 }
-.cajaLista .secciones:hover {
+.secciones:hover {
   background-color: white;
 }
 

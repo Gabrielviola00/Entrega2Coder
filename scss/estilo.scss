@@ -95,6 +95,16 @@
 .cajaLista {
     
     list-style-type: none;
+           
+    @media  (max-width: 576px){
+        
+            margin-left: 0.5rem;
+            margin-right: 2rem;
+           
+        }
+        }
+
+        
     
     .secciones {
         text-align: center;
@@ -107,9 +117,10 @@
         &:hover {
             background-color: white;
         }
+        
     }
     
-}
+
 
 /*Main de nosotros*/
 
